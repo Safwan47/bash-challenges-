@@ -93,7 +93,12 @@ b. Create a new directory d
 
 c. Copy the directory d to directory c using a single command 
 
+#cp -r d c
 
 d. Delete the directory d in the current directory a 
 
+rmdir d
+
 e. Copy “file3” to the directory d with a single command 
+
+cp -r file3 d c
